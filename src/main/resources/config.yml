@@ -1,0 +1,7 @@
+# The proxy is intentionally bound to loopback by default. Do not expose a
+# no-authentication SOCKS server to the Internet unless it is protected by a firewall.
+bind-address: 127.0.0.1
+port: 1080
+
+# TCP connection timeout for destination servers, in milliseconds.
+connect-timeout-ms: 10000

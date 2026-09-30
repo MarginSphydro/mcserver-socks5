@@ -1,0 +1,6 @@
+name: McServerSocks5
+version: 1.0.0
+main: dev.mcserver.socks5.McServerSocks5Plugin
+api-version: '1.21'
+description: A local SOCKS5 proxy managed by Paper.
+author: mcserver
